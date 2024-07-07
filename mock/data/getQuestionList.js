@@ -15,7 +15,7 @@ const {len=10, isDeleted = false, isStar = false} = opt
         list.push({
             _id: Random.id(),
             title: Random.ctitle(),
-            isPublished: Random.boolean(),
+            isPublished: true,
             isStar,
             answerCount: Random.natural(50, 100),
             createdAt: Random.datetime(),
